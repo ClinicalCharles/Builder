@@ -1,32 +1,34 @@
 {
-  "name": "react-hot-boilerplate",
+  "name": "builder",
   "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "description": "React JSX Drag and Drop Builder",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+    "url": "https://github.com/ClinicalCharles/Builder.git"
   },
   "keywords": [
     "react",
     "reactjs",
-    "boilerplate",
     "hot",
     "reload",
     "hmr",
     "live",
     "edit",
-    "webpack"
+    "webpack",
+    "draggable",
+    "droppable",
+    "drag-and-drop",
+    "dnd",
+    "immutable",
+    "undo"
   ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Charles K",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
-  },
-  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
+  "homepage": "https://github.com/ClinicalCharles/Builder",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
@@ -38,7 +40,6 @@
     "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.6.2",
     "express": "^4.13.4",
-    "jsx-to-string": "^0.3.0",
     "react-hot-loader": "^1.3.0",
     "webpack": "^1.12.2",
     "webpack-dev-middleware": "^1.6.1",
