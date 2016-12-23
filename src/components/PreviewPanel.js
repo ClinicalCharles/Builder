@@ -137,7 +137,7 @@ export const PreviewPanel = React.createClass({
   								const Component = components[component.get('code')]
   								return (
   									<DropContainer moveComponentInSurvey={this.props.moveComponentInSurvey} addComponentToSurvey={this.props.addComponentToSurvey} index={id}>
-  										<div className="py-1" key={id} onClick={()=>{this.props.selectCurrentComponent(id)}}>
+  										<div key={id} onClick={()=>{this.props.selectCurrentComponent(id)}}>
   											<Component  {...component.get('properties').toJS()} />
   										</div>
   									</DropContainer>

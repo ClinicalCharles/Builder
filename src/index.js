@@ -23,10 +23,10 @@ const undoReducer = combineReducers({
 
 const store = createStore(undoReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
-// if (localStorage.getItem('state')) {
-// 	const serializedState = localStorage.getItem('state');
-//     store.dispatch(	setState( JSON.parse(serializedState) ) );
-// } else {
+if (localStorage.getItem('state')) {
+	const serializedState = localStorage.getItem('state');
+    store.dispatch(	setState( JSON.parse(serializedState) ) );
+} else {
 	store.dispatch(	setState(
 				    {
 				    	store:{
@@ -42,7 +42,7 @@ const store = createStore(undoReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && wi
 			    		}
 	    			}
 	    		));
-// }
+}
 
 store.subscribe(() => {
   	const serializedState = JSON.stringify(store.getState().reducer.present);

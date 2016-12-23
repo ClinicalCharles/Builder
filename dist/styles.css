@@ -1,0 +1,129 @@
+/*Body*/
+  html, body #app, body #app > div{
+      height: 100%;
+  }
+  body {
+      height: calc(100% - 54px);
+      margin: 54px 0px 0px 0px;
+  }
+
+/*Radios and checkboxes*/
+  #ComponentPanel div.btn-group-vertical{
+    padding-right: 1em;
+  }
+  .btn span.check.fa {               
+      opacity: 0;  
+      margin-right: 2px;   
+  }
+  .btn.active span.check {                
+      opacity: 1; 
+      margin-right: 2px;        
+  }
+  .btn div{
+      background-color: white;
+      margin-left: 1rem;
+      border: 2px solid  #4f4f4f;
+      width: 1.4em;
+      height: 1.4em;
+  }
+  .btn p{
+      overflow: hidden;
+      margin-bottom: 0;
+  }
+  .btn div.customRadio{
+  	width: 1.4em;
+      height: 1.4em;
+      border-radius: 50%
+  }
+  .btn div.customRadio .dot{
+  	opacity: 0;
+      margin-top: 0.32em;
+      margin-left: 0.32em !important;
+      position: absolute;
+      width: 0.5em;
+      height: 0.5em;
+      border-radius: 50%;
+      background-color: #4f4f4f;
+  }
+  .btn.active div.customRadio .dot{
+  	opacity: 1;
+  }
+  .btn-group, .btn-group-vertical {
+  	display:block;
+  }
+  @media screen and (min-width: 480px) {
+  	.btn-group, .btn-group-vertical {
+  		padding-right: 5em
+  	}
+  }
+  @media screen and (min-width: 768px) {
+  	.btn-group, .btn-group-vertical {
+  		padding-right: 7em
+  	}
+  }
+  .btn-group-vertical {
+    margin-right: 1em
+  }
+
+/*Tables*/
+  .table-striped.green tbody tr:nth-of-type(even) {
+    background-color: #e7f1bd;
+  }
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: white;
+  }
+  td, thead tr th {
+    text-align:center; 
+    vertical-align:middle;
+  }
+  tbody tr th {
+    font-weight: normal;
+  }
+  td .btn{
+    padding: 0;
+  }
+  table .btn div {
+    margin-left: 0rem !important;
+  }
+
+/*Headings and titles*/
+  .surveyHeading {
+      margin-top: 15px;
+      background-color: #dcf7f5;
+      padding: 20px !important;
+      padding-bottom: 28px !important;
+  }
+  h2.heading {
+      font-size: 160%;
+      color: #181f1f;
+      margin: 0 0 0.2em 0;
+      font-weight: 500;
+      text-transform: uppercase;
+  }
+  h3.heading {
+      font-weight: 400;
+      line-height: normal;
+      font-size: 140%;
+      color: #6b7676;
+      margin: 0 0 0.2em 0;
+  }
+  h3.question {
+      padding-top: 0.5em;
+      font-weight: 600;
+      font-family: 'halis-book', sans-serif;
+      font-size: 20px;
+      color: #000;
+      margin: 0 0 2em 0;
+      color: #4f4f4f;
+  }
+  h3.assessmentSubtitle {
+      font-size: 110% !important;
+  }
+  .display-5 {
+      font-size: 2.5rem;
+      font-weight: 300;
+  }
+  .display-6 {
+      font-size: 1.5rem;
+      font-weight: 300;
+  }
