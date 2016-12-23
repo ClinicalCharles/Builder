@@ -6,6 +6,8 @@ The app was built with a combination of react-dnd, redux, react-hot-loader, webp
 
 To run: clone the repository, npm install, npm start, navigate to localhost:3000.
 
+You can interact with the demo [here](http://clinicalcharlesbuilder.s3-website.eu-west-2.amazonaws.com/)
+
 I will try to provide documentation at some point.
 
 Please let me know if you have any questions or suggestions.
